@@ -1,4 +1,2 @@
-
-function add(a, b) {
-    return a + b;
-    }
+// TODO: Create a function for each season
+// TODO: Add documentation
