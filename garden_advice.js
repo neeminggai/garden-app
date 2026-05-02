@@ -1,6 +1,14 @@
 // TODO: Create a function for each season
 // TODO: Add documentation
 
+
+/** * Provides gardening advice based on the month of the year.
+ *
+ * @param {number} month - The month of the year (1-12).
+ * @returns {string} Gardening advice for the given month.
+ */
+
+/** Example usage: */
 function gardenAdvice(month) {
     if ([12, 1, 2].includes(month)) {
         return "Winter: Plant indoor herbs";
@@ -11,6 +19,7 @@ function gardenAdvice(month) {
     }
     return "Autumn: Prepare soil for next season";
 }
+/** Example usage: */
 
 const month = 3; // TODO: Replace hardcoded value
 console.log(gardenAdvice(month));
